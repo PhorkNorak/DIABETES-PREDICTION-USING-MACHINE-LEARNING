@@ -4,7 +4,7 @@ A machine learning project for predicting diabetes risk using medical data from 
 
 **Disclaimer**: This is a student course project for educational purposes only. It is not intended for medical diagnosis, treatment, or clinical use. The predictions are for learning and demonstration purposes. Always consult healthcare professionals for medical advice. No ownership is claimed over the dataset or methodologies; this is a study implementation.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Features](#features)
 - [Dataset](#dataset)
 - [Installation](#installation)
@@ -13,23 +13,22 @@ A machine learning project for predicting diabetes risk using medical data from 
 - [Project Resources](#project-resources)
 - [Project Structure](#project-structure)
 - [Contributing](#contributing)
-- [License](#license)
 
-## ✨ Features
+## Features
 - **Comprehensive EDA**: Data cleaning, missing value handling, feature distributions, and correlation analysis
 - **Model Comparison**: Cross-validation comparison of 4 ML models (Logistic Regression, Random Forest, Gradient Boosting, KNN)
 - **Web App**: Interactive Streamlit application for real-time diabetes risk prediction
 - **Automated Pipeline**: Preprocessing (imputation, scaling) + classifier in a single pipeline
 - **Model Persistence**: Trained model saved for easy deployment
 
-## 📊 Dataset
+## Dataset
 - **Source**: Taipei Municipal Medical Center (2018-2022)
 - **Size**: 15,000 female patients
 - **Features**: 8 numeric features including Pregnancies, Plasma Glucose, BMI, Age, etc.
 - **Target**: Diabetic (1 = diabetes diagnosed, 0 = no diabetes)
 - **File**: `TAIPEI_diabetes.csv`
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8+
@@ -53,7 +52,7 @@ A machine learning project for predicting diabetes risk using medical data from 
 
 3. Ensure the dataset file `TAIPEI_diabetes.csv` is in the root directory.
 
-## 📖 Usage
+## Usage
 
 ### Training the Model
 1. Open `main.ipynb` in Jupyter Notebook or VS Code
@@ -98,7 +97,7 @@ print(f"Diabetes probability: {probability:.2%}")
 print(f"Prediction: {'Diabetic' if prediction == 1 else 'Not diabetic'}")
 ```
 
-## 🤖 Model Details
+## Model Details
 - **Algorithm**: Gradient Boosting Classifier (selected via cross-validation)
 - **Preprocessing**: Median imputation for missing values + Standard scaling
 - **Performance**: ~95% accuracy on test set
@@ -108,13 +107,13 @@ print(f"Prediction: {'Diabetic' if prediction == 1 else 'Not diabetic'}")
   - Gradient Boosting
   - K-Nearest Neighbors
 
-## � Project Resources
+## Project Resources
 Here are resources that may be helpful for the project:
 - **Original study for the project dataset**: Chou CY, Hsu DY, Chou CH. Predicting the Onset of Diabetes with Machine Learning Methods. J Pers Med. 2023 Feb 24;13(3):406. doi:10.3390/jpm13030406. PMID: 36983587; PMCID: PMC10057336.
 - **PIMA Indian dataset**: https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database
 - **WHO Diabetes webpage**: https://www.who.int/news-room/fact-sheets/detail/diabetes
 
-## �📁 Project Structure
+## Project Structure
 ```
 taipei-diabetes-prediction/
 │
@@ -128,16 +127,13 @@ taipei-diabetes-prediction/
 └── README.md                    # This file
 ```
 
-## 🤝 Contributing
+## Contributing
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
-This project is for educational purposes as part of a machine learning course. It is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. The dataset and methodologies are not owned by the project authors; proper attribution is given to original sources.
-
-## 🙏 Acknowledgments
+## Acknowledgments
 - Dataset provided by Taipei Municipal Medical Center
 - Built for educational purposes as part of ML clustering project
