@@ -6,12 +6,12 @@ __pycache__/
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
-# Machine Learning models and artifacts
-*.joblib
-*.pkl
-*.h5
-*.model
-artifacts/
+# # Machine Learning models and artifacts
+# *.joblib
+# *.pkl
+# *.h5
+# *.model
+# artifacts/
 
 # IDE files
 .vscode/
@@ -25,3 +25,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+.csv
+.pdf
